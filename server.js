@@ -18,7 +18,6 @@ app.use(cors());
 
   client: 'pg',
   connection: {
-    host : 'postgresql-polished-00230',
     connectionString: process.env.DATABASE_URL,
     ssl: true
   
