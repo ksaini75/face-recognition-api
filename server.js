@@ -19,9 +19,9 @@ app.use(cors());
   client: 'pg',
   connection: {
     host : 'postgresql-polished-00230',
-    user : 'karishmas',
-    password : '',
-    database : 'smart-brain'
+    connectionString: process.env.DATABASE_URL,
+    ssl: true
+  
   }
 });
 
