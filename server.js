@@ -18,7 +18,7 @@ app.use(cors());
 
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-polished-00230',
     user : 'karishmas',
     password : '',
     database : 'smart-brain'
